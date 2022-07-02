@@ -28,12 +28,19 @@ All features will have only two outcomes: "hit" or "not hit", therefore we can p
   <img src="https://miro.medium.com/max/700/1*Zly3ZYolDDsvn8x8_MeIeg.png">
 </p>
 
+In Boruta, there is not a hard threshold between a refusal and an acceptance area. Instead, there are 3 areas:
+
+1. Refusal area / Features to drop (the red area): the features that end up here are considered as noise, so they are dropped;
+2. Irresolution area / Features to keep tentatively (the blue area): Boruta is indecisive about the features that are in this area;
+3. Acceptance area / Features to keep (the green area): the features that are here are considered as predictive, so they are kept.
+
+The areas are defined by selecting two extreme portions (something like significance level), in our example is 1% (each tail has 0.5% of the distribution).
 
 <p align="center">
   <img src="https://miro.medium.com/max/700/1*yqAUlMtPUiFyr8gYLFagTA.png">
 </p>
 
-
+Finally, in this example we can see that `age` is predictive and should be kept, `weight` should be dropped and th decision of `height` is up to us.
 
 
 ## References
