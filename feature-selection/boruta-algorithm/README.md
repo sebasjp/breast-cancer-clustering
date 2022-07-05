@@ -40,11 +40,18 @@ The areas are defined by selecting two extreme portions (something like signific
   <img src="https://miro.medium.com/max/700/1*yqAUlMtPUiFyr8gYLFagTA.png">
 </p>
 
-Finally, in this example we can see that `age` is predictive and should be kept, `weight` should be dropped and th decision of `height` is up to us.
+Finally, in this example we can see that `age` is predictive and should be kept, `weight` should be dropped and the decision of `height` is up to us.
 
+## Examples
+
+We use the Sisben III 2019 data in order to explain how to use boruta:
+
+1. Data preparation
+2. Boruta from scratch
+3. Boruta packages (BorutaPy and BorutaShap)
 
 ## References
 
-* https://towardsdatascience.com/boruta-explained-the-way-i-wish-someone-explained-it-to-me-4489d70e154a
+* Credits about the Boruta explination: https://towardsdatascience.com/boruta-explained-the-way-i-wish-someone-explained-it-to-me-4489d70e154a
 * https://www.jstatsoft.org/article/view/v036i11
 * https://towardsdatascience.com/boruta-shap-an-amazing-tool-for-feature-selection-every-data-scientist-should-know-33a5f01285c0

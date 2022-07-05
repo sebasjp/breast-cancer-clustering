@@ -1,0 +1,80 @@
+Nombre	Título	Tipo	Descripción	Obligatorio
+FORMULARIO		number	Número de registro.	true
+DEPTO		number	Codigo asignado por el DANE:	true
+MUNIC		number	Codigo asignado por el DANE:	true
+ZONA		number	Lugar o zona donde está ubicada la unidad de vivienda:	false
+COMUNA		number	Concepto espacial que agrupa varios sectores o secciones urbanas o rurales.	false
+BARRIO		number	Código del barrio donde se encuentra ubicada la unidad de vivienda.	false
+NOMBARRIO		string	Nombre del barrio donde se encuentra ubicada la unidad de vivienda.	false
+VEREDA		number	Código de la vereda donde se encuentra ubicada la unidad de vivienda.	false
+NOMVEREDA		string	Nombre del barrio donde se encuentra ubicada la unidad de vivienda.	true
+TELEFONO		number	La unidad de vivienda cuenta con el servicio público de teléfono:	true
+VIVIENDA		number	Tipo de unidad de vivienda:	true
+PARED		number	Material predominante de las paredes exteriores:	true
+PISO		number	Material predominante de los pisos:	true
+ENERGIA		number	La unidad de vivienda cuenta con el servicio público de energía electrica:	true
+ALCANTA		number	La unidad de vivienda cuenta con el servicio público de alcantarillado:	true
+GAS		number	La unidad de vivienda cuenta con el servicio público de gas natural conectado a red pública:	true
+BASURA		number	La unidad de vivienda cuenta con el servicio público de recolección de basura:	true
+ACUEDUC		number	La unidad de vivienda cuenta con el servicio público de acueducto:	true
+ESTRATO		number	Estrato socioeconómico de la unidad de vivienda.	true
+ELIMBASURA		number	Cómo eliminan principalmente la basura en esta unidad de vivienda:	true
+TCUARTOSVI		number	Cuántos cuartos incluyendo sala - comedor tiene esta unidad de vivienda:	true
+THOGAR		number	Total de hogares de la unidad de vivienda. Esto equivale a la cantidad de grupos de personas que cocinan por separado.	true
+FECHA		date	Fecha de la encuesta completa:	true
+HOGAR		number	Número correspondiente a cada hogar o grupo de personas que cocinan por separada de la unidad de vivienda:	true
+TENEVIV		number	Este hogar vive en:	true
+TCUARTOS		number	Incluyendo sala - comedor cuántos cuartos en total ocupa este hogar en forma exclusiva:	true
+TDORMIR		number	Cuántos de estos cuartos usa este hogar para dormir:	true
+SANITAR		number	El servicio sanitario que utilizan es:	true
+USANITAR		number	Dónde se encuentra el sanitario que usan las personas de este hogar:	true
+USOSANI		number	El servicio sanitario es:	true
+TSANITAR		number	Cuánto sanitarios tiene este hogar.	true
+DUCHA		number	Tiene ducha o regadera conectada a acueducto:	true
+AGUA		number	El agua para consumo la obtienen principalmente de:	true
+LLEGA		number	El agua llega al hogar los siete días de la semana?	true
+CUANDI		number	Si no llega los siete días a la semana, cuántos días llega?	true
+SUMINIS		number	Los días en que llega el agua, el suministro es continuo las 24 horas?	true
+CUANHORAS		number	Si el suministro no es continuo las 24 horas, cuántas horas llega?	true
+PREPARAN		number	En dónde preparan los alimentos las personas de este hogar:	true
+COCINA		number	La cocina o sitio para preparar los alimentos es:	true
+COCINAN		number	Cuál combustible o fuente de energía utilizan principalmente para cocinar:	true
+ALUMBRA		number	Qué tipo de alumbrado utilizan principalmente:	true
+USOTELE		number	El servicio telefónico es:	true
+NEVERA		number	El hogar cuenta con nevera o enfriador:	true
+LAVADORA		number	El hogar cuenta con lavadora:	true
+TVCOLOR		number	El hogar cuenta con televisor:	true
+TVCABLE		number	El hogar cuenta con servicio de televisión por cable o parabólica:	true
+CALENTA		number	El hogar cuenta con calentador de agua o ducha eléctrica:	true
+HORNO		number	El hogar cuenta con horno microondas:	true
+AIRE		number	El hogar cuenta con aire acondicionado:	true
+COMPUTADOR		number	El hogar cuenta con computador:	true
+EQUIPO		number	El hogar cuenta con equipo de sonido:	true
+MOTO		number	El hogar cuenta con motocicleta para uso del hogar:	true
+TRACTOR		number	El hogar cuenta con tractor para uso del hogar:	true
+AUTO1		number	El hogar cuenta con automóvil para uso del hogar:	true
+BIERAICES		number	El hogar cuenta con bienes raíces:	true
+TPERSONA		number	Total de personas en el hogar:	true
+ORDEN		number	Número de orden del informante calificado:	true
+TIPODOC		number	Tipo documento de identidad	true
+PARENTES		number	Parentesco con el jefe del hogar:	true
+ESTCIVIL		number	Estado civil:	true
+CONYUVIVE		number	Si el cónyuge vive en este hogar escriba el número de orden:	true
+HIJOSDE		number	Si el parentesco es 4, 6, 11, 12, 14, 15, 17 de quién es hijo, escriba el número de orden:	true
+SEXO		number	Sexo:	true
+EMBARAZA		number	Está embarazado o ha tenido hijos?	true
+FECHANTO		number	Fecha de Nacimiento	true
+DISCAPA		number	Por enfermedad, accidente o nacimiento tiene alguna de las siguientes condiciones de forma permanente:	true
+CARNET		number	En salud es afiliado a:	true
+ASISTE		number	Asiste a centro educativo:	true
+TIPOESTA		number	Tipo de establecimiento educativo:	true
+GRADO		number	Último año aprobado:	true
+NIVEL		number	Nivel educativo alcanzado:	true
+ACTIVI		number	Actividad en el último mes:	true
+BUSCANDO		number	Cuántas semanas lleva buscando trabajo? Esto ocurre solo si la actividad en el último mes es buscando trabajo.	true
+PERCIBE		number	Percibe ingresos (laborales, arriendos, subsidios, transferencias, en especie)	true
+INGRESOS		number	Total ingresos mensuales:	true
+EXTRANJERO		number	Extranjero:	true
+PAGAPOR		number	Paga a otro miembro del hogar arriendo y alimentación?	true
+SERDOMES		number	Trabaja al interior de este hogar como servicio doméstico o cuidandero?	true
+PUNTAJE		number	Puntaje es un valor entre cero (0) y cien (100).	true
