@@ -46,9 +46,9 @@ Finally, in this example we can see that `age` is predictive and should be kept,
 
 We use the Sisben III 2019 data in order to explain how to use boruta:
 
-1. Data preparation
-2. Boruta from scratch
-3. Boruta packages (BorutaPy and BorutaShap)
+1. [Data preparation](https://github.com/sebasjp/data-science-applications/blob/master/feature-selection/boruta-algorithm/notebooks/01-prepare_data.ipynb)
+2. [Boruta from scratch](https://github.com/sebasjp/data-science-applications/blob/master/feature-selection/boruta-algorithm/notebooks/02-boruta-from-scratch.ipynb)
+3. [Boruta packages (BorutaPy and BorutaShap)](https://github.com/sebasjp/data-science-applications/blob/master/feature-selection/boruta-algorithm/notebooks/03-BorutaPy-BorutaShap.ipynb)
 
 ## References
 
