@@ -52,6 +52,6 @@ We use the [Sisben III 2019 data](http://medata.gov.co/dataset/base-de-datos-sis
 
 ## References
 
-* Credits about the Boruta explination: https://towardsdatascience.com/boruta-explained-the-way-i-wish-someone-explained-it-to-me-4489d70e154a
+* Credits about the Boruta explanation: https://towardsdatascience.com/boruta-explained-the-way-i-wish-someone-explained-it-to-me-4489d70e154a
 * https://www.jstatsoft.org/article/view/v036i11
 * https://towardsdatascience.com/boruta-shap-an-amazing-tool-for-feature-selection-every-data-scientist-should-know-33a5f01285c0
