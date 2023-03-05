@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: purple;
+    font-family: serif;
+    margin-bottom: 10px;
+}
+
+/* Se pueden mandar a llamar varias por si alguna fuente no existe*/
+#page-title {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*la fuente monospace no se aplica debido a que el id es mas importante que la clase*/
+.title {
+   font-size: 18px; 
+   font-family: monospace;
+}
+
+#main-nav {
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0;
+}
+#main-nav li {
+    display: inline-block;
+}
+#main-nav a {
+    color: white;
+    background-color: #13a4a4;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+/* Orden en importancia:
+1. !important
+2. estilos embebidos en la etiqueta HTML
+3. #id
+4. .class
+5. etiquetas
+
+1 y 2 son malas practicas
+
+Adicionalmente utilizar los ids para estilar en css no son buenas practicas, 
+porque son muy importantes para el estilo, son muy especificos y no se pueden replicar
+facilmente
+*/
+

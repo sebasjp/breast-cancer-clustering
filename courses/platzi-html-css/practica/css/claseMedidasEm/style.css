@@ -1,0 +1,15 @@
+/* La medida em toma la cantidad de pixeles de la etiqueta padre y la multiplica por el
+em especificado, por ejemplo html tiene por defecto 16px, por tanto, la clase
+text-container toma 16 * 1.5. 
+
+Esto no es muy util por que se puede empezar a salir de control facilmente. 
+
+Por ejemplo, para el caso de text-container div, tomara (16 * 1.5) que ya tiene la
+etiqueta div por la declaracion de css inicial: (16 * 1.5)*1.5 */
+.text-container {
+    font-size: 1.5em;
+}
+
+.text-container div {
+    font-size: 1.5em;
+}

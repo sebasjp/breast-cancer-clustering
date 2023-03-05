@@ -1,0 +1,8 @@
+/*estilos a las etiquetas p que esten dentro del mismo elemento padre
+ a una etiqueta h2
+ 
+ Combinador: General sibling (hermano general)
+ */
+h2 ~ p {
+    color: red
+}

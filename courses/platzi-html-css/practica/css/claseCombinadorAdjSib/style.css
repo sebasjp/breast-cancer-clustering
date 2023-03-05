@@ -1,0 +1,8 @@
+/*estilos a las etiquetas p que esten inmediatamente despues
+ a una etiqueta h2
+ 
+ Combinador: Adjacent sibling (hermano cercano)
+ */
+h2 + p {
+    color: red
+}

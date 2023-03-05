@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!--Le decimos al navegador que este archivo es del tipo html:5-->
+<html lang="es">
+<!--Es la etiqueta "padre" donde vivirá nuestro proyecto. 
+        El atributo lang establece el idioma del sitio web-->
+
+<head>
+    <meta charset="UTF-8" />
+    <!--Para que el navegador pueda darle manejo a caracteres especiales
+            por ejemplo emojis-->
+
+    <meta name="description" content="Esta pagina te mostrara fotos de gatos" />
+    <!--Descripcion de nuestro sitio que aparecera en los buscadores-->
+
+    <meta name="robots" content="index,follow" />
+    <!--Decirle a todos los robots de los buscadores que ubique o rastree 
+        name="nuestra pagina en relacion a la busquedad que esten realizando-->
+
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <!--Nos ayuda a trabajar en proyectos reponsive. Para que la pagina se pueda visualizar
+        en dispositivos moviles sin problema-->
+
+    <tittle>
+        Adopciones Colombia
+        <!--Título de nuestra página, no confundir con los H1-H6.
+            Este titulo es el que ves en la pestaña del navegador-->
+    </tittle>
+
+    <link rel="stylesheet" , href="./css/style.css">
+    <!--Linkea/Enlaza archivos de estilos u otros archivos que
+            necesitemos en nuestro proyecto-->
+</head>
+
+<body>
+    <header>
+        <!--Parte superior o encabezado de nuestro sitio web-->
+        <nav>
+            <!--Para colocar el panel de navegacion de nuestro sitio web
+                por lo general esto siempre esta en el header-->
+        </nav>
+    </header>
+    <main>
+        <!--Contenido principal de nuestro sitio web-->
+        <section>
+            <!--Nuestro website puede estar divido por secciones, 
+                    por ejemplo platzi tiene 3: El navegador de cursos y rutas, 
+                    el feed y nuestras rutas de aprendizaje-->
+            <article>
+                <!--Contenido independiente de la página. Es reutilizable-->
+            </article>
+        </section>
+        <ul>
+            <!--unorder list-->
+            <li>
+                <!--Item list-->
+                Adopta un cachorro
+            </li>
+        </ul>
+        <ol>
+            <!--order list-->
+            <li>
+                <!--Item list-->
+                Adopta un cachorro
+            </li>
+        </ol>
+
+        <section>
+            <!--Imagen solo con el img-->
+            <img src="./pics/pexels-alexas-fotos-12299732_small.jpg" 
+            alt="Hermoso perro" />
+        </section>
+
+        <section>
+            <!--Imagen con figure + img-->
+            <figure>
+                <img src="./pics/pexels-alexas-fotos-12299732_small.jpg" 
+                alt="Hermoso perro" />
+                <figcaption>Es una imagen de un hermoso perro</figcaption>
+            </figure>
+        </section>
+        <section>
+            <!--Con la etiqueta src dentro de video. Adicionalmente
+            #t=5,10 sirve para que el video inicie reproduciendose en el segundo 5
+            y termine en el segundo 10-->
+            <video src="./videos/video.mp4#t=5,10" 
+            controls 
+            preload="auto">                   
+            </video>
+        </section>
+
+        <section>
+            <!--Usando la etiqueta source para colocar el video. Esto sirve porque
+            podemos colocar el mismo video con diferentes extensiones dentro de una sola
+            etiqueta de video, con el objetivo de que el navegador decida cual extension 
+            puede renderizar-->
+            <video controls preload="auto">
+                <source src="./videos/video.mp4" />
+                <source src="./videos/video.mp4" />
+            </video>
+        </section>
+    </main>
+    <footer>
+        <!--Seccion final de nuestro website-->
+    </footer>
+    <p>Etiqueta de parrafo</p>
+    <h1>Titulo</h1>
+    <h2>Titulo</h2>
+    <h6>Titulo</h6>
+    <a href="#" target="_blank">
+        <!--target="_blank" es para que abra una ventana nueva cuando se le de click
+        al vinculo-->
+        soy un link
+    </a>
+
+  
+</body>
+
+</html>

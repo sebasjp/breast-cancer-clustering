@@ -1,0 +1,16 @@
+/*child:
+
+Estilos a la etiqueta p que sea hija directa de la etiqueta div
+*/
+div > p {
+    color: red
+}
+
+/*descendiente:
+
+Estilos a la etiqueta p que esten contenidos en algun nivel dentro de div.
+Es el mas habitual, es el que mas se va utilizar
+ */
+ div p {
+    color: red
+}
