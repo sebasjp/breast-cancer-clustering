@@ -25,28 +25,41 @@ results = results.with_columns(
     .alias("library")
 )
 results = results.with_columns(pl.col("nrows") / 10**6)
+results = results.rename({"moving_average": "time_moving_avg"})
 
 # plot results
-# results.columns: # ['time_reading', 'time_mean', 'time_groupby_mean', 'time_sorting', 'moving_average']
-feature_str="moving_average"
-sns.lineplot(
-    x="nrows",
-    y=feature_str, 
-    hue="library",
-    style="library",
-    markers=True,
-    data=results.filter(pl.col("nrows") < 5)
-)
-plt.title(feature_str + ": seconds")
-plt.show()
+time_cols = [
+    'time_reading',
+    'time_mean',
+    'time_groupby_mean', 
+    'time_sorting', 
+    'time_moving_avg'
+]
+for feature_str in time_cols:
+    sns.lineplot(
+        x="nrows",
+        y=feature_str, 
+        hue="library",
+        style="library",
+        markers=True,
+        data=results.filter(pl.col("nrows") < 5)
+    )
+    plt.title(feature_str)
+    plt.xlabel("nrows (Millones)")
+    plt.ylabel("Tiempo de ejecucion (Segundos)")
+    plt.savefig(f"./output/{feature_str}_menor5.png")
+    plt.close()
 
-sns.lineplot(
-    x="nrows",
-    y=feature_str, 
-    hue="library",
-    style="library",
-    markers=True,
-    data=results.filter(pl.col("nrows") >= 5)
-)
-plt.title(feature_str + ": seconds")
-plt.show()
+    sns.lineplot(
+        x="nrows",
+        y=feature_str, 
+        hue="library",
+        style="library",
+        markers=True,
+        data=results.filter(pl.col("nrows") >= 5)
+    )
+    plt.title(feature_str)
+    plt.xlabel("nrows (Millones)")
+    plt.ylabel("Tiempo de ejecucion (Segundos)")
+    plt.savefig(f"./output/{feature_str}_mayor5.png")
+    plt.close()
