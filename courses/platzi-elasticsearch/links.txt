@@ -1,0 +1,7 @@
+https://github.com/krsarmiento/contenido-curso-elastic/blob/clase-04-indices-y-documentos/clase.md
+https://calvinjku.medium.com/trying-out-machine-learning-on-elasticsearch-using-python-755116790170
+https://levelup.gitconnected.com/effortlessly-accessing-elasticsearch-with-python-99d93a7ebafd
+https://www.youtube.com/watch?v=qfCabSGzSZQ
+https://www.youtube.com/watch?v=CM0OSbHTaeA
+https://www.elastic.co/guide/en/elasticsearch/reference/current/knn-search.html
+https://www.elastic.co/blog/introducing-approximate-nearest-neighbor-search-in-elasticsearch-8-0
